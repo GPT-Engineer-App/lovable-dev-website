@@ -4,7 +4,7 @@ import { FaTwitter, FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
-      <Box as="header" w="full" p={4} position="fixed" bg="white" zIndex="banner">
+      <Box as="header" w="full" p={4} position="fixed" bg="white" zIndex="banner" boxShadow="sm">
         <Flex justify="space-between" align="center" maxW="container.md" m="0 auto">
           <Heading as="h1" size="lg">Lovable.dev</Heading>
           <Flex as="nav">
